@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-pink: hsl(322, 100%, 66%);
+  --clr-pale-cyan: hsl(193, 100%, 96%);
+  --clr-dark-cyan: hsl(192, 100%, 9%);
+  --clr-grayish-blue: hsl(208, 11%, 55%);
+  --ff-open-sans: "Open Sans", sans-serif;
+  --ff-poppins: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  font-family: var(--ff-open-sans);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: var(--ff-poppins);
+}
+
+.btn {
+  padding: 0.8rem 1.2rem;
+  border-radius: 25px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  box-shadow: 5px 5px 5px rgba(202, 63, 161, 0.15);
+
+  cursor: pointer;
+}
+
+.button-top {
+  background-color: #ffffff;
+  color: var(--clr-dark-cyan);
+  border: none;
+}
+
+.button-pink {
+  background-color: var(--clr-pink);
+  color: var(--clr-pale-cyan);
+  border: none;
+}
+
+.header {
+  padding: 1rem 2rem;
+  background-image: url(../images/bg-hero-mobile.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 40%;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.right-container {
+  padding: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 1rem 1rem;
+}
+
+.title-para {
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
+}
+
+.left-container {
+  padding-top: 2rem;
+}
+
+.images {
+  width: 100%;
+}
+
+.card-one {
+  width: 90%;
+  margin: 3rem auto;
+  box-shadow: 2px 2px 3px rgb(126, 124, 123), -2px -2px 3px rgb(126, 124, 123);
+  border-radius: 1rem;
+}
+
+.discrption-para {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1rem 3rem;
+  padding-bottom: 2rem;
+}
+
+.grow-title {
+  padding-top: 2rem;
+}
+
+.last-card {
+  width: 90%;
+  background-color: #ffffff;
+  padding: 0.5rem 1.5rem;
+  margin: 2rem auto;
+  margin-bottom: -4rem;
+  text-align: center;
+  box-shadow: 2px 2px 3px rgb(126, 124, 123), -2px -2px 3px rgb(126, 124, 123);
+  border-radius: 10px;
+  position: relative;
+  z-index: 10;
+}
+
+.card-content {
+  font-size: 1rem;
+  padding: 14px;
+}
+
+.footer {
+  padding: 5rem 1rem 1rem 1rem;
+  background-color: var(--clr-dark-cyan);
+  color: var(--clr-pale-cyan);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.logo-text {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.location-container,
+.phone-container,
+.email-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  gap: 1rem;
+}
+
+.logo {
+  width: 20px;
+  height: 15px;
+}
+
+.list-items {
+  font-size: 1.5rem;
+  font-family: var(--ff-open-sans);
+  font-weight: 400;
+  margin: 1rem auto;
+}
+
+.footer-four {
+  text-align: center;
+}
+
+.footer-social-icon {
+  font-size: 1.5rem;
+  margin: 0 0.5rem 1rem 0.5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  border: 2px solid var(--clr-pale-cyan);
+}
+
+.para {
+  padding-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-content {
+    width: 20;
+  }
+}
